@@ -1,16 +1,22 @@
-# navigation_tasks
+# حل تكليف المحاضرة الخامسة (التنقل وتمرير البيانات)
 
-A new Flutter project.
+## 🔸 التمرين الأول: Basic Stack Navigation
+شرح آليات التنقل البسيط باستخدام Push و Pop بين الشاشة الرئيسية وشاشة التفاصيل.
 
-## Getting Started
+![الشاشة الرئيسية](screenshot/pic1.jpg)
+![شاشة التفاصيل](screenshot/pic3.jpg)
 
-This project is a starting point for a Flutter application.
+![الصفحة الرئيسية](screenshot/pic2.jpg)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔸 التمرين الثاني: Passing and Returning Data
+شرح عملية تمرير كائن (Product Object) إلى شاشة التفاصيل، وإرجاع رسالة تأكيد ليتم عرضها في SnackBar.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### قائمة المنتجات وتمرير البيانات
+![قائمة المنتجات](screenshot/pic4.jpg)
+
+### شاشة تفاصيل المنتج المستلمة للبيانات
+![تفاصيل المنتج](screenshot/pic5.jpg)
+
+### إرجاع البيانات وعرض الـ SnackBar
+![تأكيد الرجوع والـ SnackBar](screenshot/pic6.jpg)
